@@ -99,3 +99,5 @@ Definimos uma key através da variavel e ao invés de retornamos diretamente a s
 onde passamos como parametros a key, o método http com a url da api.
 
 Ou seja, todos os componentes que realizam essas solicitações vão passar pela função que ira verificar se os dados já existem em cache e se sim, retornamos os dados em cache. Caso não exista por nao existir mesmo ou por já ter expirado utilizamos o fallback para ai sim realizar a solicitação http e atualizar o cache com os dados.
+
+This repository is based on the caching service described in the following article: [Caching Service in Angular 17 Applications](https://medium.com/@chandantechie/caching-service-in-angular-17-applications-9ebf5051f997) by Chandan Kumar.
